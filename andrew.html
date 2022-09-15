@@ -1,3 +1,18 @@
+<?PHP
+	$style = "color";
+	
+	if (isset($_GET["color"])) {
+		$style = $_GET['color'];
+	}
+	
+	function style() {
+		switch ($style) {
+			case "bw": echo "-bw";
+			break;
+		}
+	}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -362,15 +377,15 @@
                                 <!-- close gallery item -->
 								
 								<!-- gallery item -->
-                                <div class="item illustration website sq-item">
+                                <div class="item photography sq-item">
                                     <div class="picframe wow">
-                                        <a class="image-popup" href="images/portfolio-bw/pf%20(1).jpg">
+                                        <a class="image-popup" href="images/portfolio-bw/sunset-car-1.jpg">
 											<span class="overlay">
 												<span class="pf_text">
-													<span class="project-name">Project Name</span>
+													<span class="project-name">Car at Sunset 1</span>
 												</span>
 											</span>
-											<img src="images/portfolio-bw/pf%20(1).jpg" alt="" />
+											<img src="images/portfolio-bw/sunset-car-1.jpg" alt="" />
 										</a>
                                     </div>
                                 </div>
@@ -379,28 +394,28 @@
                                 <!-- gallery item -->
                                 <div class="item photography sq-item">
                                     <div class="picframe wow">
-                                        <a class="image-popup" href="images/portfolio-bw/pf%20(2).jpg">
+                                        <a class="image-popup" href="images/portfolio-bw/sunset-car-2.jpg">
 											<span class="overlay">
 												<span class="pf_text">
-													<span class="project-name">Project Name</span>
+													<span class="project-name">Car at Sunset 2</span>
 												</span>
 											</span>
-											<img src="images/portfolio-bw/pf%20(2).jpg" alt="" />
+											<img src="images/portfolio-bw/sunset-car-2.jpg" alt="" />
 										</a>
                                     </div>
                                 </div>
                                 <!-- close gallery item -->
 
                                 <!-- gallery item -->
-                                <div class="item illustration sq-item">
+                                <div class="item photography sq-item">
                                     <div class="picframe wow">
-                                        <a class="image-popup" href="images/portfolio-bw/pf%20(3).jpg">
+                                        <a class="image-popup" href="images/portfolio-bw/sunset-car-3.jpg">
 											<span class="overlay">
 												<span class="pf_text">
-													<span class="project-name">Project Name</span>
+													<span class="project-name">Car at Sunset 3</span>
 												</span>
 											</span>
-											<img src="images/portfolio-bw/pf%20(3).jpg" alt="" />
+											<img src="images/portfolio-bw/sunset-car-3.jpg" alt="" />
 										</a>
                                     </div>
                                 </div>
